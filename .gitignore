@@ -1,0 +1,20 @@
+# Runtime credentials and clinic data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.sqlite
+*.db
+*.bak
+backups/
+uploads/
+patient-exports/
+# Generated artifacts and local hosting identity
+worker/
+dist/
+.openai/hosting.json
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
